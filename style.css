@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+.tarjetas{
+    text-align: center;
+}
+
+
+.tarjeta-de-pokemon img{
+    width: 300px;
+    height: 200px;
+    border:1px solid burlywood;
+    border-left: 7px solid burlywood;
+    border-right:7px solid burlywood;
+}
+
+.tarjeta-de-pokemon{
+    width: 350px;
+    height: 500px;
+    background: rgb(62, 78, 93);
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    border: 10px solid rgb(207, 178, 193);
+    border-radius: 10px;
+}
+
+.tarjeta-de-pokemon .nombre{
+    font-size: 25px;
+    background-color: burlywood;
+    color: aliceblue;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 50px;
+    width: 100px;
+}
+
+.tarjeta-de-pokemon .poder{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 20px;
+    margin: 2px underline black;
+    padding-bottom: 5px;
+}
